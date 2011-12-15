@@ -18,7 +18,7 @@
 	<project name="androix-app-xkbcomp" path="androix/app/xkbcomp" remote="tmzt" />
 	<project name="androix-lib-libxtrans" path="androix/lib/libxtrans" remote="tmzt" />
 	<project name="androix-proto-x11proto" path="androix/proto/x11proto" remote="tmzt" />
-	<project name="androix-xkeyboard-config" path="android/xkeyboard-config" remote="tmzt" />
+	<project name="androix-xkeyboard-config" path="androix/xkeyboard-config" remote="tmzt" />
 	<project name="app/xkbcomp" path="androix/app/xkbcomp" remote="xorg" revision="xkbcomp-1.2.0" />
 	<project name="lib/libXau" path="androix/lib/libXau" remote="xorg" revision="libXau-1.0.6" />
 	<project name="lib/libXdmcp" path="androix/lib/libXdmcp" remote="xorg" revision="libXdmcp-1.1.0" />
