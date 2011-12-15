@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="origin" fetch="git://anongit.freedesktop.org/xorg/xserver"/>
-	<remote name="github" fetch="git://github.com/tmzt" />
-	<default remote="github" revision="androix-1" />
-	<project name="androix-xserver" path="androix/xserver" remote="github" /> 
-	<project name="androix-xcb-libxcb" path="androix/xcb/libxcb" remote="github" />
-	<project name="androix-lib-libX11" path="androix/lib/libX11" remote="github" />
-	<project name="androix-lib-libXfont" path="androix/lib/libXfont" remote="github" />
-	<project name="androix-app-xkbcomp" path="androix/app/xkbcomp" remote="github" />
-	<project name="androix-lib-libxtrans" path="androix/lib/libxtrans" remote="github" />
-	<project name="androix-proto-x11proto" path="androix/proto/x11proto" remote="github" />
+	<remote name="xorg" fetch="git://anongit.freedesktop.org/xorg/" />
+	<remote name="freetype" fetch="git://git.sv.nongnu.org/freetype/" />
+	<remote name="tmzt" fetch="git://github.com/tmzt" />
+	<remote name="webbbn" fetch="git://github.com/webbbn" />
+
+	<default remote="tmzt" revision="androix-1" />
+
+	<project name="freetype2" path="androix/freetype" remote="freetype" revision="VER-2-4-4" />
+	<project name="androix-xserver" path="androix/xserver-webbbn" remote="webbbn" revision="androix-merge_upstream_010611"/> 
+	<project name="androix-xserver" path="androix/xserver" remote="tmzt" revision="androix-0.8"/> 
+	<project name="androix-xcb-libxcb" path="androix/xcb/libxcb" remote="tmzt" />
+	<project name="androix-lib-libX11" path="androix/lib/libX11" remote="tmzt" />
+	<project name="androix-lib-libXfont" path="androix/lib/libXfont" remote="tmzt" />
+	<project name="androix-app-xkbcomp" path="androix/app/xkbcomp" remote="tmzt" />
+	<project name="androix-lib-libxtrans" path="androix/lib/libxtrans" remote="tmzt" />
+	<project name="androix-proto-x11proto" path="androix/proto/x11proto" remote="tmzt" />
+	<project name="androix-xkeyboard-config" path="android/xkeyboard-config" remote="tmzt" />
+	<project name="app/xkbcomp" path="androix/app/xkbcomp" remote="xorg" revision="xkbcomp-1.2.0" />
+	<project name="lib/libXau" path="androix/lib/libXau" remote="xorg" revision="libXau-1.0.6" />
+	<project name="lib/libXdmcp" path="androix/lib/libXdmcp" remote="xorg" revision="libXdmcp-1.1.0" />
+	<project name="lib/libXfont" path="androix/lib/libXfont" remote="xorg" revision="libXfont-1.4.3" />
+	<project name="lib/libfontenc" path="androix/lib/libfontenc" remote="xorg" revision="libfontenc-1.1.0" />
+	<project name="lib/libxkbfile" path="androix/lib/libxkbfile" remote="xorg" revision="libxkbfile-1.0.7" />
+	<project name="lib/libxtrans" path="androix/lib/libxtrans" remote="xorg" revision="xtrans-1.2.6" />
+	<project name="pixman" path="androix/pixman" remote="xorg" revision="pixman-0.22.0" />
+	<project name="proto/bigreqsproto" path="androix/proto/bigreqsproto" remote="xorg" revision="bigreqsproto-1.1.1" />
+	<project name="proto/compositeproto" path="androix/proto/compositeproto" remote="xorg" revision="compositeproto-0.4.2" />
+	<project name="proto/damageproto" path="androix/proto/damageproto" remote="xorg" revision="damageproto-1.2.1" />
+	<project name="proto/fixesproto" path="androix/proto/fixesproto" remote="xorg" revision="fixesproto-5.0" />
+	<project name="proto/inputproto" path="androix/proto/inputproto" remote="xorg" revision="inputproto-1.9.99.902" />
+	<project name="proto/kbproto" path="androix/proto/kbproto" remote="xorg" revision="kbproto-1.0.5" />
+	<project name="proto/recordproto" path="androix/proto/recordproto" remote="xorg" revision="recordproto-1.14.1" />
+	<project name="proto/resourceproto" path="androix/proto/resourceproto" remote="xorg" revision="resourceproto-1.1.1" />
+	<project name="proto/scrnsaverproto" path="androix/proto/scrnsaverproto" remote="xorg" revision="scrnsaverproto-1.2.1" />
+	<project name="proto/xcmiscproto" path="androix/proto/xcmiscproto" remote="xorg" revision="xcmiscproto-1.2.1" />
+	<project name="proto/xextproto" path="androix/proto/xextproto" remote="xorg" revision="xextproto-7.2.0" />
 </manifest>
 	
