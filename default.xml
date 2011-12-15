@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="xorg" fetch="git://anongit.freedesktop.org/xorg/" />
+	<remote name="mesa" fetch="git://anongit.freedesktop.org/mesa/" />
+	<remote name="xcb" fetch="git://anongit.freedesktop.org/xcb/" />
 	<remote name="freetype" fetch="git://git.sv.nongnu.org/freetype/" />
 	<remote name="tmzt" fetch="git://github.com/tmzt" />
 	<remote name="webbbn" fetch="git://github.com/webbbn" />
@@ -35,6 +37,11 @@
 	<project name="proto/resourceproto" path="androix/proto/resourceproto" remote="xorg" revision="resourceproto-1.1.1" />
 	<project name="proto/scrnsaverproto" path="androix/proto/scrnsaverproto" remote="xorg" revision="scrnsaverproto-1.2.1" />
 	<project name="proto/xcmiscproto" path="androix/proto/xcmiscproto" remote="xorg" revision="xcmiscproto-1.2.1" />
+	<project name="proto/xproto" path="androix/proto/xproto" remote="xorg" revision="xproto-7.0.20" />
 	<project name="proto/xextproto" path="androix/proto/xextproto" remote="xorg" revision="xextproto-7.2.0" />
+	<project name="xcp/pthread-stubs" path="androix/xcb/pthread-stubs" remote="xorg" revision="0.3" />
+	<project name="util/macros" path="androix/util/macros" remote="xorg" revision="1.14.0" />
+	<project name="drm" path="androix/mesa/drm" remote="mesa" revision="2.4.25" />
+	<project name="proto" path="androix/xcb/proto" remote="xcb" revision="1.6" />
 </manifest>
 	
