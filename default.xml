@@ -36,7 +36,7 @@
 	<project name="xorg/proto/xcmiscproto" path="androix/proto/xcmiscproto" remote="freedesktop" revision="refs/tags/xcmiscproto-1.2.1" />
 	<project name="xorg/proto/xproto" path="androix/proto/xproto" remote="freedesktop" revision="refs/tags/xproto-7.0.20" />
 	<project name="xorg/proto/xextproto" path="androix/proto/xextproto" remote="freedesktop" revision="refs/tags/xextproto-7.2.0" />
-	<project name="xorg/util/macros" path="androix/util/macros" remote="freedesktop" revision="refs/tags/1.14.0" />
+	<project name="xorg/util/macros" path="androix/util/macros" remote="freedesktop" revision="refs/tags/util-macros-1.14.0" />
 	<project name="pixman" path="androix/pixman" remote="freedesktop" revision="refs/tags/pixman-0.22.0" />
 	<project name="mesa/drm" path="androix/mesa/drm" remote="freedesktop" revision="refs/tags/2.4.25" />
 	<project name="xcb/pthread-stubs" path="androix/xcb/pthread-stubs" remote="freedesktop" revision="refs/tags/0.3" />
