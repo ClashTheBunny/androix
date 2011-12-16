@@ -7,6 +7,7 @@
 
 	<default remote="tmzt" revision="androix-1" />
 
+	<project name="xorg/util/modular" path="util/modular" remote="freedesktop" revision="refs/tags/X11R7.6" />
 	<project name="xorg/util/macros" path="util/macros" remote="freedesktop" revision="refs/tags/util-macros-1.14.0" />
 	<!-- not changed and equiv to xproto <project name="androix-proto-x11proto" path="proto/x11proto" remote="tmzt" /> -->
 	<project name="xorg/proto/xproto" path="proto/xproto" remote="freedesktop" revision="refs/tags/xproto-7.0.20" />
