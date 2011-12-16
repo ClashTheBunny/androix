@@ -2,20 +2,21 @@
 <manifest>
 	<remote name="freedesktop" fetch="git://anongit.freedesktop.org/" />
 	<remote name="freetype" fetch="git://git.sv.nongnu.org/freetype/" />
-	<remote name="github" fetch="git://github.com/" />
+	<remote name="tmzt" fetch="git://github.com/tmzt" />
+	<remote name="webbbn" fetch="git://github.com/webbbn" />
 
-	<default remote="github" revision="androix-1" />
+	<default remote="tmzt" revision="androix-1" />
 
 	<project name="freetype2" path="androix/freetype" remote="freetype" revision="VER-2-4-4" />
-	<project name="webbbn/androix-xserver" path="androix/xserver-webbbn" remote="github" revision="androix-merge_upstream_010611"/> 
-	<project name="tmtz/androix-xserver" path="androix/xserver" remote="github" revision="androix-0.8"/> 
-	<project name="androix-xcb-libxcb" path="androix/xcb/libxcb" remote="github" />
-	<project name="androix-lib-libX11" path="androix/lib/libX11" remote="github" />
-	<project name="androix-lib-libXfont" path="androix/lib/libXfont" remote="github" />
-	<project name="androix-app-xkbcomp" path="androix/app/xkbcomp" remote="github" />
-	<project name="androix-lib-libxtrans" path="androix/lib/libxtrans" remote="github" />
-	<project name="androix-proto-x11proto" path="androix/proto/x11proto" remote="github" />
-	<project name="androix-xkeyboard-config" path="androix/xkeyboard-config" remote="github" />
+	<project name="androix-xserver-webbbn" path="androix/xserver-webbbn" remote="webbbn" revision="androix-merge_upstream_010611"/> 
+	<project name="androix-xserver" path="androix/xserver" remote="tmzt" revision="androix-0.8"/> 
+	<project name="androix-xcb-libxcb" path="androix/xcb/libxcb" remote="tmzt" />
+	<project name="androix-lib-libX11" path="androix/lib/libX11" remote="tmzt" />
+	<project name="androix-lib-libXfont" path="androix/lib/libXfont" remote="tmzt" />
+	<project name="androix-app-xkbcomp" path="androix/app/xkbcomp" remote="tmzt" />
+	<project name="androix-lib-libxtrans" path="androix/lib/libxtrans" remote="tmzt" />
+	<project name="androix-proto-x11proto" path="androix/proto/x11proto" remote="tmzt" />
+	<project name="androix-xkeyboard-config" path="androix/xkeyboard-config" remote="tmzt" />
 	<project name="xorg/app/xkbcomp" path="androix/app/xkbcomp" remote="freedesktop" revision="xkbcomp-1.2.0" />
 	<project name="xorg/lib/libXau" path="androix/lib/libXau" remote="freedesktop" revision="libXau-1.0.6" />
 	<project name="xorg/lib/libXdmcp" path="androix/lib/libXdmcp" remote="freedesktop" revision="libXdmcp-1.1.0" />
