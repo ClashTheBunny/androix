@@ -8,7 +8,7 @@
 	<default remote="tmzt" revision="androix-1" />
 
 	<project name="freetype2" path="androix/freetype" remote="freetype" revision="refs/tags/VER-2-4-4" />
-	<!-- <project name="androix-xserver" path="androix/xserver-webbbn" remote="webbbn" revision="refs/tags/androix-merge_upstream_010611"/>  -->
+	<!-- <project name="androix-xserver" path="androix/xserver-webbbn" remote="webbbn" revision="androix-merge_upstream_010611"/>  -->
 	<project name="androix-xserver" path="androix/xserver" remote="tmzt" revision="androix-0.8"/> 
 	<project name="androix-xcb-libxcb" path="androix/xcb/libxcb" remote="tmzt" />
 	<project name="androix-lib-libX11" path="androix/lib/libX11" remote="tmzt" />
