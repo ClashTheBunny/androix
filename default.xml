@@ -23,11 +23,9 @@
 	<project name="xorg/lib/libxkbfile" path="lib/libxkbfile" remote="freedesktop" revision="refs/tags/libxkbfile-1.0.7" />
 	<!-- <project name="xorg/app/xkbcomp" path="app/xkbcomp" remote="freedesktop" revision="refs/tags/xkbcomp-1.2.0" /> -->
 	<project name="androix-app-xkbcomp" path="app/xkbcomp" remote="tmzt" />
-	<!--
-	possible extra build of xtrans:
-	<project name="xorg/lib/libxtrans" path="lib/libxtrans" remote="freedesktop" revision="refs/tags/xtrans-1.2.6" />
-	<project name="androix-lib-libxtrans" path="lib/libxtrans" remote="tmzt" />
-	-->
+	<!-- possible extra build of xtrans: -->
+	<!-- <project name="xorg/lib/libxtrans" path="lib/libxtrans" remote="freedesktop" revision="refs/tags/xtrans-1.2.6" /> -->
+	<!-- <project name="androix-lib-libxtrans" path="lib/libxtrans" remote="tmzt" /> -->
 	<project name="androix-xkeyboard-config" path="xkeyboard-config" remote="tmzt" />
 	<project name="mesa/drm" path="mesa/drm" remote="freedesktop" revision="refs/tags/2.4.25" />
 	<project name="xorg/proto/fixesproto" path="proto/fixesproto" remote="freedesktop" revision="refs/tags/fixesproto-5.0" />
