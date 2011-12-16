@@ -7,8 +7,8 @@
 
 	<default remote="tmzt" revision="androix-1" />
 
-	<project name="freetype2" path="androix/freetype" remote="freetype" revision="VER-2-4-4" />
-	<!-- <project name="androix-xserver" path="androix/xserver-webbbn" remote="webbbn" revision="androix-merge_upstream_010611"/>  -->
+	<project name="freetype2" path="androix/freetype" remote="freetype" revision="refs/tags/VER-2-4-4" />
+	<!-- <project name="androix-xserver" path="androix/xserver-webbbn" remote="webbbn" revision="refs/tags/androix-merge_upstream_010611"/>  -->
 	<project name="androix-xserver" path="androix/xserver" remote="tmzt" revision="androix-0.8"/> 
 	<project name="androix-xcb-libxcb" path="androix/xcb/libxcb" remote="tmzt" />
 	<project name="androix-lib-libX11" path="androix/lib/libX11" remote="tmzt" />
@@ -17,29 +17,29 @@
 	<project name="androix-lib-libxtrans" path="androix/lib/libxtrans" remote="tmzt" />
 	<project name="androix-proto-x11proto" path="androix/proto/x11proto" remote="tmzt" />
 	<project name="androix-xkeyboard-config" path="androix/xkeyboard-config" remote="tmzt" />
-	<!-- <project name="xorg/app/xkbcomp" path="androix/app/xkbcomp" remote="freedesktop" revision="xkbcomp-1.2.0" /> -->
-	<project name="xorg/lib/libXau" path="androix/lib/libXau" remote="freedesktop" revision="libXau-1.0.6" />
-	<project name="xorg/lib/libXdmcp" path="androix/lib/libXdmcp" remote="freedesktop" revision="libXdmcp-1.1.0" />
-	<project name="xorg/lib/libXfont" path="androix/lib/libXfont" remote="freedesktop" revision="libXfont-1.4.3" />
-	<project name="xorg/lib/libfontenc" path="androix/lib/libfontenc" remote="freedesktop" revision="libfontenc-1.1.0" />
-	<project name="xorg/lib/libxkbfile" path="androix/lib/libxkbfile" remote="freedesktop" revision="libxkbfile-1.0.7" />
-	<project name="xorg/lib/libxtrans" path="androix/lib/libxtrans" remote="freedesktop" revision="xtrans-1.2.6" />
-	<project name="xorg/proto/bigreqsproto" path="androix/proto/bigreqsproto" remote="freedesktop" revision="bigreqsproto-1.1.1" />
-	<project name="xorg/proto/compositeproto" path="androix/proto/compositeproto" remote="freedesktop" revision="compositeproto-0.4.2" />
-	<project name="xorg/proto/damageproto" path="androix/proto/damageproto" remote="freedesktop" revision="damageproto-1.2.1" />
-	<project name="xorg/proto/fixesproto" path="androix/proto/fixesproto" remote="freedesktop" revision="fixesproto-5.0" />
-	<project name="xorg/proto/inputproto" path="androix/proto/inputproto" remote="freedesktop" revision="inputproto-1.9.99.902" />
-	<project name="xorg/proto/kbproto" path="androix/proto/kbproto" remote="freedesktop" revision="kbproto-1.0.5" />
-	<project name="xorg/proto/recordproto" path="androix/proto/recordproto" remote="freedesktop" revision="recordproto-1.14.1" />
-	<project name="xorg/proto/resourceproto" path="androix/proto/resourceproto" remote="freedesktop" revision="resourceproto-1.1.1" />
-	<project name="xorg/proto/scrnsaverproto" path="androix/proto/scrnsaverproto" remote="freedesktop" revision="scrnsaverproto-1.2.1" />
-	<project name="xorg/proto/xcmiscproto" path="androix/proto/xcmiscproto" remote="freedesktop" revision="xcmiscproto-1.2.1" />
-	<project name="xorg/proto/xproto" path="androix/proto/xproto" remote="freedesktop" revision="xproto-7.0.20" />
-	<project name="xorg/proto/xextproto" path="androix/proto/xextproto" remote="freedesktop" revision="xextproto-7.2.0" />
-	<project name="xorg/util/macros" path="androix/util/macros" remote="freedesktop" revision="1.14.0" />
-	<project name="pixman" path="androix/pixman" remote="freedesktop" revision="pixman-0.22.0" />
-	<project name="mesa/drm" path="androix/mesa/drm" remote="freedesktop" revision="2.4.25" />
-	<project name="xcb/pthread-stubs" path="androix/xcb/pthread-stubs" remote="freedesktop" revision="0.3" />
-	<project name="xcb/proto" path="androix/xcb/proto" remote="freedesktop" revision="1.6" />
+	<!-- <project name="xorg/app/xkbcomp" path="androix/app/xkbcomp" remote="freedesktop" revision="refs/tags/xkbcomp-1.2.0" /> -->
+	<project name="xorg/lib/libXau" path="androix/lib/libXau" remote="freedesktop" revision="refs/tags/libXau-1.0.6" />
+	<project name="xorg/lib/libXdmcp" path="androix/lib/libXdmcp" remote="freedesktop" revision="refs/tags/libXdmcp-1.1.0" />
+	<project name="xorg/lib/libXfont" path="androix/lib/libXfont" remote="freedesktop" revision="refs/tags/libXfont-1.4.3" />
+	<project name="xorg/lib/libfontenc" path="androix/lib/libfontenc" remote="freedesktop" revision="refs/tags/libfontenc-1.1.0" />
+	<project name="xorg/lib/libxkbfile" path="androix/lib/libxkbfile" remote="freedesktop" revision="refs/tags/libxkbfile-1.0.7" />
+	<project name="xorg/lib/libxtrans" path="androix/lib/libxtrans" remote="freedesktop" revision="refs/tags/xtrans-1.2.6" />
+	<project name="xorg/proto/bigreqsproto" path="androix/proto/bigreqsproto" remote="freedesktop" revision="refs/tags/bigreqsproto-1.1.1" />
+	<project name="xorg/proto/compositeproto" path="androix/proto/compositeproto" remote="freedesktop" revision="refs/tags/compositeproto-0.4.2" />
+	<project name="xorg/proto/damageproto" path="androix/proto/damageproto" remote="freedesktop" revision="refs/tags/damageproto-1.2.1" />
+	<project name="xorg/proto/fixesproto" path="androix/proto/fixesproto" remote="freedesktop" revision="refs/tags/fixesproto-5.0" />
+	<project name="xorg/proto/inputproto" path="androix/proto/inputproto" remote="freedesktop" revision="refs/tags/inputproto-1.9.99.902" />
+	<project name="xorg/proto/kbproto" path="androix/proto/kbproto" remote="freedesktop" revision="refs/tags/kbproto-1.0.5" />
+	<project name="xorg/proto/recordproto" path="androix/proto/recordproto" remote="freedesktop" revision="refs/tags/recordproto-1.14.1" />
+	<project name="xorg/proto/resourceproto" path="androix/proto/resourceproto" remote="freedesktop" revision="refs/tags/resourceproto-1.1.1" />
+	<project name="xorg/proto/scrnsaverproto" path="androix/proto/scrnsaverproto" remote="freedesktop" revision="refs/tags/scrnsaverproto-1.2.1" />
+	<project name="xorg/proto/xcmiscproto" path="androix/proto/xcmiscproto" remote="freedesktop" revision="refs/tags/xcmiscproto-1.2.1" />
+	<project name="xorg/proto/xproto" path="androix/proto/xproto" remote="freedesktop" revision="refs/tags/xproto-7.0.20" />
+	<project name="xorg/proto/xextproto" path="androix/proto/xextproto" remote="freedesktop" revision="refs/tags/xextproto-7.2.0" />
+	<project name="xorg/util/macros" path="androix/util/macros" remote="freedesktop" revision="refs/tags/1.14.0" />
+	<project name="pixman" path="androix/pixman" remote="freedesktop" revision="refs/tags/pixman-0.22.0" />
+	<project name="mesa/drm" path="androix/mesa/drm" remote="freedesktop" revision="refs/tags/2.4.25" />
+	<project name="xcb/pthread-stubs" path="androix/xcb/pthread-stubs" remote="freedesktop" revision="refs/tags/0.3" />
+	<project name="xcb/proto" path="androix/xcb/proto" remote="freedesktop" revision="refs/tags/1.6" />
 </manifest>
 	
