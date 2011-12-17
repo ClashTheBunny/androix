@@ -7,7 +7,7 @@
 
 	<default remote="tmzt" revision="androix-1" />
 
-	<project name="xorg/util/modular" path="util/modular" remote="freedesktop" revision="refs/tags/X11R7.6" />
+	<project name="xorg/util/modular" path="util/modular" remote="freedesktop" revision="refs/tags/X11R7.6" /> <!-- This comment makes this not build, but still fetches it, because it's a good reference for now -->
 	<project name="xorg/util/macros" path="util/macros" remote="freedesktop" revision="refs/tags/util-macros-1.14.0" />
 	<!-- not changed and equiv to xproto <project name="androix-proto-x11proto" path="proto/x11proto" remote="tmzt" /> -->
 	<project name="xorg/proto/xproto" path="proto/xproto" remote="freedesktop" revision="refs/tags/xproto-7.0.20" />
@@ -43,7 +43,7 @@
 	<project name="androix-lib-libXfont" path="lib/libXfont" remote="tmzt" />
 	<project name="xorg/lib/libXdmcp" path="lib/libXdmcp" remote="freedesktop" revision="refs/tags/libXdmcp-1.1.0" />
 	<project name="pixman" path="pixman" remote="freedesktop" revision="refs/tags/pixman-0.22.0" />
-	<!-- <project name="androix-xserver" path="xserver-webbbn" remote="webbbn" revision="androix-merge_upstream_010611"/>  -->
-	<project name="androix-xserver" path="xserver" remote="tmzt" revision="androix-0.8"/> 
+	<!-- <project name="androix-xserver" path="xserver-webbbn" remote="webbbn" revision="androix-merge_upstream_010611"/>  --> <!-- This comment makes this not build with the loop -->
+	<project name="androix-xserver" path="xserver" remote="tmzt" revision="androix-0.8"/> <!-- This comment makes this not build with the loop -->
 </manifest>
 	
