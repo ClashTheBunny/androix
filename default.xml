@@ -12,7 +12,7 @@
 	<!-- not changed and equiv to xproto <project name="androix-proto-x11proto" path="proto/x11proto" remote="tmzt" /> -->
 	<project name="xorg/proto/xproto" path="proto/xproto" remote="freedesktop" revision="refs/tags/xproto-7.0.20" />
 	<project name="xorg/lib/libxtrans" path="lib/libxtrans" remote="freedesktop" revision="refs/tags/xtrans-1.2.6" />
-	<!-- <project name="androix-lib-libxtrans" path="lib/libxtrans" remote="tmzt" /> -->
+	<!-- not changed <project name="androix-lib-libxtrans" path="lib/libxtrans" remote="tmzt" /> -->
 	<project name="xcb/proto" path="xcb/proto" remote="freedesktop" revision="refs/tags/1.6" />
 	<project name="xcb/pthread-stubs" path="xcb/pthread-stubs" remote="freedesktop" revision="refs/tags/0.3" />
 	<project name="xorg/lib/libXau" path="lib/libXau" remote="freedesktop" revision="refs/tags/libXau-1.0.6" />
@@ -23,7 +23,7 @@
 	<project name="androix-lib-libX11" path="lib/libX11" remote="tmzt" />
 	<project name="xorg/lib/libxkbfile" path="lib/libxkbfile" remote="freedesktop" revision="refs/tags/libxkbfile-1.0.7" />
 	<project name="xorg/app/xkbcomp" path="app/xkbcomp" remote="freedesktop" revision="refs/tags/xkbcomp-1.2.0" />
-	<!-- <project name="androix-app-xkbcomp" path="app/xkbcomp" remote="tmzt" /> -->
+	<!-- not changed <project name="androix-app-xkbcomp" path="app/xkbcomp" remote="tmzt" /> -->
 	<!-- possible extra build of xtrans: -->
 	<!-- <project name="xorg/lib/libxtrans" path="lib/libxtrans" remote="freedesktop" revision="refs/tags/xtrans-1.2.6" /> -->
 	<!-- <project name="androix-lib-libxtrans" path="lib/libxtrans" remote="tmzt" /> -->
