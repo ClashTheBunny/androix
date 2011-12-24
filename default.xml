@@ -30,6 +30,9 @@
 	<project name="androix-xkeyboard-config" path="xkeyboard-config" remote="tmzt" />
 	<project name="mesa/drm" path="mesa/drm" remote="freedesktop" revision="refs/tags/2.4.25" />
 	<project name="xorg/proto/fixesproto" path="proto/fixesproto" remote="freedesktop" revision="refs/tags/fixesproto-5.0" />
+	<project name="xorg/proto/randrproto" path="proto/randrproto" remote="freedesktop" revision="refs/tags/randrproto-1.3.2" />
+	<project name="xorg/proto/videoproto" path="proto/videoproto" remote="freedesktop" revision="refs/tags/videoproto-2.3.1" />
+	<project name="xorg/proto/renderproto" path="proto/renderproto" remote="freedesktop" revision="refs/tags/renderproto-0.11.1" />
 	<project name="xorg/proto/damageproto" path="proto/damageproto" remote="freedesktop" revision="refs/tags/damageproto-1.2.1" />
 	<project name="xorg/proto/xcmiscproto" path="proto/xcmiscproto" remote="freedesktop" revision="refs/tags/xcmiscproto-1.2.1" />
 	<project name="xorg/proto/bigreqsproto" path="proto/bigreqsproto" remote="freedesktop" revision="refs/tags/bigreqsproto-1.1.1" />
